@@ -1,17 +1,10 @@
-export default function BeeIcon({ name = 'hex', size = 28 }) {
-  const src =
-    name === 'bee'
-      ? '/src/assets/svg/bee.svg'
-      : name === 'hive'
-      ? '/src/assets/svg/hive.svg'
-      : '/src/assets/svg/hex.svg';
+import BeeIcon from '../assets/svg/Bee';
+import HiveIcon from '../assets/svg/Hive';
+import HexIcon from '../assets/svg/Hex';
+
+export default function Icon({ name = 'hex', size = 28 }) {
+  const Icon = name === 'bee' ? BeeIcon : name === 'hive' ? HiveIcon : HexIcon;
   return (
-    <img
-      src={src}
-      width={size}
-      height={size}
-      alt={name}
-      aria-label={`${name} icon`}
-    />
+    <Icon width={size} height={size} alt={name} aria-label={`${name} icon`} />
   );
 }
