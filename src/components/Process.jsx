@@ -43,7 +43,7 @@ export default function Process() {
           >
             <div className='flex items-center gap-3'>
               <BeeIcon name={s.icon} />
-              <h3 className='font-semibold'>{s.title}</h3>
+              <h3 className='font-semibold text-gold-300'>{s.title}</h3>
             </div>
             <p className='mt-3 text-white/80 text-sm'>{s.desc}</p>
           </motion.li>

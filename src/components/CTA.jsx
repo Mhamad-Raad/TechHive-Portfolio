@@ -95,7 +95,7 @@ export default function CTA() {
         transition={{ delay: 0.2 }}
       >
         <label className='grid gap-2'>
-          <span className='text-sm'>Email</span>
+          <span className='text-sm text-gold-300'>Email</span>
           <input
             name='user_email'
             type='email'
@@ -108,7 +108,7 @@ export default function CTA() {
           )}
         </label>
         <label className='grid gap-2'>
-          <span className='text-sm'>Name</span>
+          <span className='text-sm text-gold-300'>Name</span>
           <input
             name='user_name'
             type='text'
@@ -121,7 +121,7 @@ export default function CTA() {
           )}
         </label>
         <label className='grid gap-2'>
-          <span className='text-sm'>Message</span>
+          <span className='text-sm text-gold-300'>Message</span>
           <textarea
             name='user_message'
             required

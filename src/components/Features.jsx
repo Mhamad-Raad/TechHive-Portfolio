@@ -55,7 +55,9 @@ export default function Features() {
             <Card>
               <div className='flex items-center gap-3'>
                 <BeeIcon name={it.icon} />
-                <h3 className='text-lg font-semibold'>{it.title}</h3>
+                <h3 className='text-lg font-semibold text-gold-300'>
+                  {it.title}
+                </h3>
               </div>
               <ul className='mt-4 space-y-2 text-white/80 list-disc list-inside'>
                 {it.bullets.map((b) => (
