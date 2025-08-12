@@ -39,9 +39,9 @@ export default function Hero() {
           <Button as='a' href='#contact'>
             Get a free audit
           </Button>
-          <Button as='a' href='#work' variant='outline'>
+          {/* <Button as='a' href='#work' variant='outline'>
             See work
-          </Button>
+          </Button> */}
         </div>
       </div>
 
